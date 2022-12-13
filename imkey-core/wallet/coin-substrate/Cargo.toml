@@ -1,0 +1,22 @@
+[package]
+name = "coin-substrate"
+version = "0.1.0"
+authors = ["xiemener <xielamenla@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = {path = "../../common"}
+device = {path = "../../device"}
+transport = {path = "../../transport"}
+sp-core = "7.0.0"
+failure = "0.1.8"
+hex = "0.4.3"
+prost = "0.11.2"
+prost-types = "0.11.2"
+
+
+[dev-dependencies]
+sp-runtime = "2.0.0-rc3"
+sp-keyring = "2.0.0-rc3"

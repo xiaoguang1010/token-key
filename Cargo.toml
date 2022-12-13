@@ -1,0 +1,5 @@
+[workspace]
+members=[
+    "imkey-core",
+    "token-core"
+]
